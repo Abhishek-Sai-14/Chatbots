@@ -1,0 +1,92 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "Hey", "Is anyone there?", "Hello", "Hay" ],
+      "responses": [ "Hello", "Hi", "Hi there" ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "byee", "byeee" ],
+      "responses": ["Have a nice day", "Bye! Come back again after 5 hours" ]
+    },
+    {
+      "tag": "kerala",
+      "patterns": [ "my state is kerala","kerala" ],
+      "responses": ["please provide me your place" ]
+    },
+    {
+      "tag": "Alapad",
+      "patterns": [ "my city is Alapad","Alapad","my nearby city is Alapad" ],
+      "responses": ["please go ahead and ask you query" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thanks for the help" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure", "You're most welcome!" ]
+    },
+    {
+      "tag": "about",
+      "patterns": [ "Who are you?", "What are you?", "Who you are?" ],
+      "responses": [ "I.m Weather Informer, your bot assistant", "I'm  Weather Informer, an Artificial Intelligent bot" ]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name", "what should I call you", "whats your name?" ],
+      "responses": [ "You can call me Weather Informer.", "My name is Weather Informer", "I'm  Weather Informer" ]
+    },
+    {
+      "tag": "alert_kochi",
+      "patterns": [ "Is climate ok at Alapad", "is there any alert at Alapad", "Is the weather in Alapad okay?", "Are there any alert in Alapad" ],
+      "responses": [ "There is a heavy rainfall in Alapad currently and it has been declared as Oranger alert" ]
+    },
+    {
+      "tag": "Parakkadavu",
+      "patterns": [ "Is climate ok at Parakkadavu", "is there any alert at Parakkadavu", "Is the weather in Parakkadavu okay?", "Are there any alerts in Parakkadavu" ],
+      "responses": [ "The weather in Parakkadavu is absolutely Ok and there are no Alerts Currently" ]
+    },
+    {
+      "tag": "Azheekal",
+      "patterns": [ "Is climate ok at Azheekal", "is there any alert at Azheekal", "Is the weather in  Azheekal okay?", "Are there any alerts in  Azheekal" ],
+      "responses": [ "There is a moderate rainfall in Azheekal and it has been declared as Yellow Alert " ]
+    },
+    {
+      "tag": "risk",
+      "patterns": [ "Is there any risk at Azheekal", "Is there a danger at Azheekal?", "Does Azheekal pose any risks?" ],
+      "responses": [ "There is no much risk currently at Azheekal, but be watchful" ]
+    },
+    {
+      "tag": "kochi_contact",
+      "patterns": [ "Can you provide information about emergency contact numbers ", "Would you be willing to provide the emergency phone numbers? ", "Can you tell me the numbers to call in an emergency? " ],
+      "responses": [ "The emergency toll free numbers are 4200-xxx-xxx and 4132-xxx-xxx" ]
+    },
+    {
+      "tag": "kochi_duration",
+      "patterns": [ "Can you provide information on the predicted duration and intensity of the cyclone? ", "Can you tell me how long and how strong the cyclone is expected to be? ", "cyclone's expected strength and duration?" ],
+      "responses": [ "Based on the latest forecasts, the cyclone is expected to last for approximately three more days. The intensity of the cyclone is predicted to be in the medium to high range for next 2 days. please be safe." ]
+    },
+
+    {
+      "tag": "kochi_evacuation",
+      "patterns": [ "Are there any evacuation orders or shelters in place for my area?", "Is there an evacuation order or a shelter in my area?", "Are there any shelters or evacuation orders in effect for my area?" ],
+      "responses": [ "There is no evacuation orders currently in Alapad as of now. But please be watchful and try not to come outside until its an emergency" ]
+    },
+    {
+      "tag": "kochi_relief",
+      "patterns": [ "Are there any relief efforts or support programs available for those affected by the cyclone?", "Are there any programmes or relief initiatives available to help individuals impacted by the cyclone?", "Is there any aid or help available for people affected by the cyclone?" ],
+      "responses": [ "Yes, both state and central governments have assigned special teams, including the NDRF team, to work on the restoration process in the affected areas. They are closely monitoring the situation and coordinating their efforts to ensure a swift and effective response. " ]
+    },
+
+    {
+      "tag": "kochi_road",
+      "patterns": [ "Can you provide updates on road closures and transportation disruptions caused by the cyclone?", "Could you give us an update on the cyclone's impact on road closures and other transportation issues?", "cyclone's impact on road closures and other transportation" ],
+      "responses": [ "In Alapad, the cyclone has caused significant damage, with many trees and electric poles being uprooted. Special teams are actively working to remove the uprooted trees and restore the infrastructure. It has been announced that government vehicles will not be operational for the next two days." ]
+    }
+
+
+    
+    
+
+
+  ]
+}

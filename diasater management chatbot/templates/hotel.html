@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  
+        <style>
+
+            body{
+                background-image: url('dis3.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .button{
+            background-color: rgb(64, 117, 208);
+            border: none;
+            padding: 0.5rem;
+            border-radius: 5px;
+            color:  rgb(0, 0, 0);
+            font-size: 1.2rem;
+        }
+        .button-area{
+            text-align: center;
+            
+            }
+
+select {
+  width: 50%;
+  min-width: 15ch;
+  max-width: 30ch;
+  border: 1px solid var(--select-border);
+  border-radius: 0.5em;
+  padding: 0.1em 0.5em;
+  font-size: 0.85rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #e67070;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+            
+        </style>
+    </head>
+    <body>
+        
+      <div style="background-color: rgb(158, 197, 215); width: 600px; height: 620px; margin-top: 5%; margin-left: 30%; border-radius: 1rem;">
+
+            <div style="padding-top: 30px; padding-left: 23%;">
+            Select State  &nbsp: &nbsp <select name="state" id="countySel" size="1">
+            <option value="" selected="selected">Select state</option>
+            </select>
+            <br>
+            <br>
+            Select District  &nbsp: &nbsp <select name="countrya" id="stateSel" size="1">
+            <option value="" selected="selected">Please select Country first</option>
+            </select>
+            <br>
+            <br>
+            Select Place &nbsp &nbsp: &nbsp <select name="district" id="districtSel" size="1">
+            <option value="" selected="selected">Please select State first</option>
+            </select><br>
+        </div>
+
+        <h4 style="padding-top: 40px; padding-left: 10px;"> <label for="w3review"> Enter the type of query: </label> </h4>
+        <br>
+        
+        <textarea style="padding-top: 10px; margin-left:30px; border-radius: 0.5rem;" id="w3review" name="w3review" rows="3" cols="70" placeholder=" Weather alert at Alapad"></textarea>
+
+
+
+            <h4 style="padding-top: 40px; padding-left: 10px;"> <label for="w3review"> Enter the data to update: </label> </h4>
+            <br>
+            
+            <textarea style="padding-top: 10px; margin-left:30px;  border-radius: 0.5rem;" id="w3review" name="w3review" rows="3" cols="70" placeholder=" It has been declared as Red alert and its expexted to be heavy rainfall for the next 2 days"></textarea>
+
+    
+
+            <div class="button-area" style="padding-top: 10px;">
+                <form action="/" method="post">
+                  <input type="submit" name="a" value=" &nbsp &nbsp &nbsp Update &nbsp &nbsp &nbsp" class="button" />
+                </form>
+              </div>
+
+              </div>
+
+
+            <script>
+                var stateObject = {
+                "Kerala": { 
+                  "Thrissur": ["Alapad", "Parayakadavu"],
+                "Kollam": ["Thrissur", "Kollam"]
+                },
+                "Australia": {
+                "South Australia": ["Dunstan", "Mitchell"],
+                "Victoria": ["Altona", "Euroa"]
+                }, "Canada": {
+                "Alberta": ["Acadia", "Bighorn"],
+                "Columbia": ["Washington", ""]
+                },
+                }
+                window.onload = function () {
+                var countySel = document.getElementById("countySel"),
+                stateSel = document.getElementById("stateSel"),
+                districtSel = document.getElementById("districtSel");
+                for (var country in stateObject) {
+                countySel.options[countySel.options.length] = new Option(country, country);
+                }
+                countySel.onchange = function () {
+                stateSel.length = 1; // remove all options bar first
+                districtSel.length = 1; // remove all options bar first
+                if (this.selectedIndex < 1) return; // done
+                for (var state in stateObject[this.value]) {
+                stateSel.options[stateSel.options.length] = new Option(state, state);
+                }
+                }
+                countySel.onchange(); // reset in case page is reloaded
+                stateSel.onchange = function () {
+                districtSel.length = 1; // remove all options bar first
+                if (this.selectedIndex < 1) return; // done
+                var district = stateObject[countySel.value][this.value];
+                for (var i = 0; i < district.length; i++) {
+                districtSel.options[districtSel.options.length] = new Option(district[i], district[i]);
+                }
+                }
+                }
+                </script>
+        </body>
+
+    
+</html>
