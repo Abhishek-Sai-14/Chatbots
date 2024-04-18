@@ -1,0 +1,161 @@
+[
+ 
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "Hey", "Is anyone there?", "Hello", "Hay" ],
+      "responses": [ "Hello", "Hi", "Hi there" ]
+    },
+    {
+      "tag": "bye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "byee", "byeee" ],
+      "responses": [ "See you later", "Have a nice day", "Bye! Come back again" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Thanks for the help" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure", "You're most welcome!" ]
+    },
+    {
+      "tag": "about",
+      "patterns": [ "Who are you?", "What are you?", "Who you are?" ],
+      "responses": [ "I.m Hussain Sagar, your bot assistant", "I'm Hussain Sagar, an Artificial Intelligent bot" ]
+    },
+    {
+      "tag": "name",
+      "patterns": [ "what is your name", "what should I call you", "whats your name?" ],
+      "responses": [ "You can call me Hussain Sagar.", "I'm Hussain Sagar!", "Just call me as Hussain Sagar" ]
+    },
+    {
+      "tag": "places",
+      "patterns": [ "what are tourist places available", "what are famous places to visit ?", "What are special places to see", "what landmarks are made available to tourists", "which locations are ideal for tourists", "what are the available tourist spots", "what are some well-known places to visit?", "What places are interesting to visit", "What are some unique tourist attractions?" ],
+      "responses": [ "The famous places are charminar, salar jung museum, Golconda Fort, Falaknama palace and nizam musuem", "The special places include charminar, salar jung museum, Golconda Fort, Falaknama palace and nizam musuem" ]
+    },
+    {
+      "tag": "help",
+      "patterns": [ "Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please" ],
+      "responses": [ "Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you" ]
+    },
+    {
+      "tag": "hotels",
+      "patterns": [ "what are the hotels available", "which is best hotel", "where can we find hotels", "can we find hotel near by", "What lodging options are there?", "which hotel is the best", "What hotels are nearby?", "can you list the top hotels" ,"Can you give me the names of a few hotels in Hyderabad?"],
+      "responses": [ "Some of the renowned hotels in Hyderabad include Radisson Blu (5-star) in Banjara Hills, Red Fox Hotel in Hitech City, and Lemon Tea Hotel in Gachibowli. For more options, visit MakeMyTrip Hyderabad Hotels."]
+    },
+    {
+      "tag": "stay",
+      "patterns": [ "what are best resort to stay", "Where can we stay at night", "which is best house to stay at night", "what resorts are the best?", "which accommodations are the best?", "what are the top resorts?", "Which resorts are the best ones?", "We need a place to stay the night.", "" ],
+      "responses": [ "Few best places to stay are Kukatpally, Kondapur, Uppal, Banjara Hills" ]
+    },
+    {
+      "tag": "guide",
+      "patterns": [ "what is tourist guide phone number", "can we get tourist guide number", "where can we get tourist guide", "what is the number for a tourist guide", "what is phone number of guide", " what is the guide's phone number?", "what is the tourist guide's telephone number", "can you provide guide's contact information", "what is the guide's telephone number?", "where can we find a travel guide?" ],
+      "responses": [ "Telangana tourism guide number - 04029801040 or 04023414334" ]
+    },
+
+    {
+      "tag": "Radisson_blu",
+      "patterns": [ "Is the hotel Radisson blu open?", "What are the timings of Radisson blu Hotel", "How is the Rush at Radisson blu Hotel?", "Are the seats Available at Radisson blu Hotel?", "How busy is the Radisson blu Hotel?", "Are there any seats available at the Radisson blu Hotel?", "What are the Radisson blu 's hours? ", "How busy is the Radisson blu hotel right now? " ],
+      "responses": [ "The Radisson Blu Hotel is currently open, operating from 7:00 to 23:00 today. Currently, there is not much rush at the hotel." ]
+    },
+
+    {
+      "tag": "red_fox",
+      "patterns": [ "Is the hotel Red Fox open?", "What are the timings of Red Fox Hotel", "How is the Rush at Red Fox Hotel?", "Are the seats Available at Red Fox Hotel?", "How busy is the Red Fox Hotel?", "Are there any seats available at the Red Fox Hotel?", "What are the Red Fox hotel's hours? ", "How busy is the Red Fox hotel right now? " ],
+      "responses": [ "The hotel is closed for maintenance. Please check back after a while." ]
+    },
+
+    {
+      "tag": "lemon_tea",
+      "patterns": [ "Is the hotel Lemon Tea open?", "What are the timings of Lemon Tea Hotel", "How is the Rush at Lemon Tea Hotel?", "Are the seats Available at Lemon Tea Hotel?", "How busy is the Lemon Tea Hotel?", "Are there any seats available at the Lemon Tea Hotel?", "What are the Lemon Tea hotel's hours? ", "How busy is the Lemon Tea hotel right now? " ],
+      "responses": [ "The hotel is open and the working hours today is 24*7 and there is a little rush at the moment" ]
+    },
+
+    {
+      "tag": "sapthagiri",
+      "patterns": [ "Is the hotel sapthagiri open?", "What are the timings of sapthagiri Hotel", "How is the Rush at sapthagiri Hotel?", "Are the seats Available at sapthagiri Hotel?", "How busy is the sapthagiri Hotel?", "Are there any seats available at the sapthagiri Hotel?", "What are the sapthagiri hotel's hours? ", "How busy is the sapthagiri hotel right now? " ],
+      "responses": [ "The hotel is open and the working hours today is from 6:00 to 23:00 and currently there is rush currently and the waiting time is approximately 20 minutes" ]
+    },
+
+    {
+      "tag": "Kukatpally",
+      "patterns": [ "What are resorts at Kukatpally", "Which are famous resorts at Kukatpally", "Are there any resorts at Kukatpally", "Which resorts are good at Kukatpally", "What resorts are there in Kukatpally? ", "Which resort is best to stay at Kukatpally" ],
+      "responses": [ "The Famous Resorts at Kukatpally are Pragati Resorts, Lahari Resorts, Novotel" ]
+    },
+
+    {
+      "tag": "Kondapur",
+      "patterns": [ "What are resorts at Kondapur", "Which are famous resorts at Kondapur", "Are there any resorts at Kondapur", "Which resorts are good at Kondapur", "What resorts are there in Kondapur? ", "Which resort is best to stay at Kondapur" ],
+      "responses": [ "The Famous Resorts at Kondapur are Dream Valley Resort, Vishika Resorts, Willow Spring Resort" ]
+    },
+
+    {
+      "tag": "Uppal",
+      "patterns": [ "What are resorts at Uppal", "Which are famous resorts at Uppal", "Are there any resorts at Uppal", "Which resorts are good at Uppal", "What resorts are there in Uppal? ", "Which resort is best to stay at Uppal" ],
+      "responses": [ "The Famous Resorts at Uppal are Ananya Eco Resorts, J Valley Resorts" ]
+    },
+
+    {
+      "tag": "Banjara_Hills",
+      "patterns": [ "What are resorts at Banjara Hills", "Which are famous resorts at Banjara Hills", "Are there any resorts at Banjara Hills", "Which resorts are good at Banjara Hills", "What resorts are there in Banjara Hills? ", "Which resort is best to stay at Banjara Hills" ],
+      "responses": [ "The Famous Resorts at Banjara Hills are Taj Krishna Resorts, Taj Banjara Resorts, Park Hyatt Resort" ]
+    },
+
+    {
+      "tag": "Pragathi",
+      "patterns": [ "How is Pragathi Resort?", "what are Facilities available at Pragathi Resort", "What are Timings of Pragathi Resort", "Are rooms available at pragathi Resort", "Are there accommodations in Praghati Resort?", "How is accommodations in Praghati Resort?" ],
+      "responses": [ "The Pragathi Resort have 24*7 Services and have 4.5 stars rating. Currently there are accommodations Available." ]
+    },
+
+    {
+      "tag": "Lahari",
+      "patterns": [ "How is Lahari Resort?", "what are Facilities available at Lahari Resort", "What are Timings of Lahari Resort", "Are rooms available at Lahari Resort", "Are there accommodations in Lahari Resort?", "How is accommodations in Lahari Resort?" ],
+      "responses": [ "The Lahari Resort is available from 10:00 to 23:00 and have 4.2 stars rating. Currently there are accommodations Available." ]
+    },
+    {
+      "tag": "Novotel",
+      "patterns": [ "How is Novotel Resort?", "what are Facilities available at Novotel Resort", "What are Timings of Novotel Resort", "Are rooms available at Novotel Resort", "Are there accommodations in Novotel Resort?", "How is accommodations in Novotel Resort?" ],
+      "responses": [ "The Novotel Resort have 24*7 Services and have 4.8 stars rating. There are no accommodations Available currently, please check after few hours." ]
+    },
+    {
+      "tag": "Dream_Valley",
+      "patterns": [ "How is Dream Valley Resort?", "what are Facilities available at Dream Valley Resort", "What are Timings of Dream Valley Resort", "Are rooms available at Dream Valley Resort", "Are there accommodations in Dream Valley Resort?", "How is accommodations in Dream Valley Resort?" ],
+      "responses": [ "The Dream Valley Resort is closed for maintanance currently" ]
+    },
+
+    {
+      "tag": "Vishika",
+      "patterns": [ "How is Vishika Resort?", "what are Facilities available at Vishika Resort", "What are Timings of Vishika Resort", "Are rooms available at Vishika Resort", "Are there accommodations in Vishika Resort?", "How is accommodations in Vishika Resort?" ],
+      "responses": [ "The Vishika Resort have 24*7 Services and have 4.3 stars rating. Currently there are very few accommodations Available." ]
+    },
+
+    {
+      "tag": "Willow_Spring",
+      "patterns": [ "How is Willow Spring Resort?", "what are Facilities available at Willow Spring Resort", "What are Timings of Willow Spring Resort", "Are rooms available at Willow Spring Resort", "Are there accommodations in Willow Spring Resort?", "How is accommodations in Willow Spring Resort?" ],
+      "responses": [ "The Pragathi Resort have 24*7 Services and have 4.5 stars rating. Currently there are accommodations Available." ]
+    },
+    {
+      "tag": "Ananya_Eco",
+      "patterns": [ "How is Ananya Eco Resort?", "what are Facilities available at Ananya Eco Resort", "What are Timings of Ananya Eco Resort", "Are rooms available at Ananya Eco Resort", "Are there accommodations in Ananya Eco Resort?", "How is accommodations in Ananya Eco Resort?" ],
+      "responses": [ "The Ananya Eco Resort have services from 6:00 to 23:30 and have 4.5 stars rating. Currently there are no accommodations Available, please check after while." ]
+    },
+    {
+      "tag": "J_Valley",
+      "patterns": [ "How is J Valley Resort?", "what are Facilities available at J Valley Resort", "What are Timings of J Valley Resort", "Are rooms available at J Valley Resort", "Are there accommodations in J Valley Resort?", "How is accommodations in J Valley Resort?" ],
+      "responses": [ "The J Valley Resort is under maintanance now, please check again later." ]
+    },
+    {
+      "tag": "Taj_Krishna",
+      "patterns": [ "How is Taj Krishna Resort?", "what are Facilities available at Taj Krishna Resort", "What are Timings of Taj Krishna Resort", "Are rooms available at Taj Krishna Resort", "Are there accommodations in Taj Krishna Resort?", "How is accommodations in Taj Krishna Resort?" ],
+      "responses": [ "The Taj Krishna Resort is expereincing a high traffic and no accomodations are availabe now, please check it later" ]
+    },
+    {
+      "tag": "Taj_banjara",
+      "patterns": [ "How is Taj Banjara Resort?", "what are Facilities available at Taj Banjara Resort", "What are Timings of Taj Banjara Resort", "Are rooms available at Taj Banjara Resort", "Are there accommodations in Taj Banjara Resort?", "How is accommodations in Taj Banjara Resort?" ],
+      "responses": [ "The Taj Banjara Resort have 24*7 Services and have 4.75 stars rating. Currently there are very few accommodations Available so book it ASAP." ]
+    },
+    {
+      "tag": "Park_Hyatt",
+      "patterns": [ "How is Park Hyatt Resort?", "what are Facilities available at Park Hyatt Resort", "What are Timings of Park Hyatt Resort", "Are rooms available at Park Hyatt Resort", "Are there accommodations in Park Hyatt Resort?", "How is accommodations in Park Hyatt Resort?" ],
+      "responses": [ "The Park Hyatt Resort have 24*7 Services and have 4.5 stars rating. Currently there are accommodations Available." ]
+    }
+
+]
